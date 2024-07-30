@@ -7,7 +7,7 @@ class TextModel(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "text": "Grass is green"
+                "text": "Grape is green"
             }
         }
 
@@ -19,7 +19,7 @@ class SlugifyModel(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "text": "Grass is green",
+                "text": "Grape is green",
                 "sep":  "+"
             }
         }
